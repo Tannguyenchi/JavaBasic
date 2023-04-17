@@ -32,6 +32,6 @@ public class LeapYear {
     }
 
     public static void main(String[] args) {
-        isLeapYear(2001);
+        System.out.println(isLeapYear(2001));
     }
 }

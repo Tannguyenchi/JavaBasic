@@ -10,7 +10,7 @@ public class EqualSumChecker {
     }
 
     public static void main(String[] args) {
-        hasEqualSum(3,5,8);
+        System.out.println(hasEqualSum(3,5,8));
     }
 
 }

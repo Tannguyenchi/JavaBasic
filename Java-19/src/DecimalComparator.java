@@ -16,6 +16,6 @@ public class DecimalComparator {
     }
 
     public static void main(String[] args) {
-        areEqualByThreeDecimalPlaces(1.0,3.0);
+        System.out.println(areEqualByThreeDecimalPlaces(1.0,3.0));
     }
 }

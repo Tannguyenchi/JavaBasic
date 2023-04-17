@@ -17,6 +17,6 @@ public class BarkingDog {
     }
 
     public static void main(String[] args) {
-        shouldWakeUp(true,10);
+        System.out.println(shouldWakeUp(true,7));
     }
 }
