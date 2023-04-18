@@ -15,8 +15,7 @@ public class PaintJob {
             return -1;
         }
 
-        int numOfBuckets = (int) Math.ceil((width * height) / areaPerBucket);
-        return numOfBuckets;
+        return (int) Math.ceil((width * height) / areaPerBucket);
 
     }// end of getBucketCount method 2
 
@@ -25,8 +24,7 @@ public class PaintJob {
         if(area <= 0 || areaPerBucket <= 0){
             return -1;
         }
-        int numOfBuckets = (int) Math.ceil(area / areaPerBucket);
-        return numOfBuckets;
+        return (int) Math.ceil(area / areaPerBucket);
     } // end of getBucketCount method 3
 
     public static void main(String[] args) {
